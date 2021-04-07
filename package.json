@@ -7,7 +7,7 @@
     "url": "git+https://github.com/VVVVVVVIN/ABCtube_Clone_2021.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "LKV",
   "license": "MIT",
