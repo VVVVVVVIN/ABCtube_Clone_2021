@@ -5,7 +5,7 @@ const PORT = 4400;
 const app = express();
 
 const handleHome = (req, res) => {
-  return res.send("Hello!");
+  return res.end();
 };
 
 const handleLogin = (req, res) => {
