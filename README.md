@@ -1,13 +1,13 @@
 # ABCtube Reloaded
 
 / -> Home
-/join -> Join
-/login -> Login
-/search -> Search
 
+/users/join
+/users/login
 /users/edit -> Edit Profile
 /users/delete -> Delete Profile
 
+/videos/search
 /videos/watch -> Watch Video
 /video/edit -> Edit Video
 /video/delete -> Delete Video
