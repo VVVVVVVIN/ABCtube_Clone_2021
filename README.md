@@ -1,15 +1,17 @@
 # ABCtube Reloaded
 
 / -> Home
+/join -> Join
+/login -> Login
+/search -> Search
 
-/users/join
-/users/login
-/users/edit -> Edit Profile
-/users/delete -> Delete Profile
+/users/:id -> See User
+/users/logout -> Log Out
+/users/edit -> Edit MY Profile
+/users/delete -> Delete My Profile
 
 /videos/search
-/videos/watch -> Watch Video
-/video/edit -> Edit Video
-/video/delete -> Delete Video
-/videos/comment -> Comment on a video
-/videos/comments/delete -> Delete A Comment of a Video
+/videos/:id -> See Video
+/video/:id/edit -> Edit Video
+/video/:id/delete -> Delete Video
+/videos/upload -> Upload Video
