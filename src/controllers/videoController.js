@@ -1,10 +1,17 @@
-const fakeUser = {
-  username: "초코츄러스",
-  loggedIn: false,
+export const trending = (req, res) => {
+  const videos = [
+    {
+      title: "비디오",
+    },
+    {
+      title: "삐디오",
+    },
+    {
+      title: "비띠오",
+    },
+  ];
+  return res.render("home", { pageTitle: "Home", videos });
 };
-
-export const trending = (req, res) =>
-  res.render("home", { pageTitle: "Home", fakeUser });
 export const see = (req, res) => res.render("watch");
 export const edit = (req, res) => res.render("edit");
 export const search = (req, res) => res.send("Search");
