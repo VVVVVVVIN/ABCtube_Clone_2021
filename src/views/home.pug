@@ -1,9 +1,9 @@
-extends base.pug
+extends base
+include mixins/video
 
 block content
     h2 Watch Out!🚬
-    ul 
-        each video in videos 
-            li=video 
-        else 
-            li 미안하구려🕶
+    each video in videos 
+        +video(video)
+    else 
+        li 미안하구려🕶
